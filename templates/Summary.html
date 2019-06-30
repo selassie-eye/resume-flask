@@ -1,0 +1,12 @@
+{% extends "Resume.html" %}
+{% block content %}
+    <div class="summary">
+        <h1 class="text-center">Summary</h1>
+        <ul>
+            {% for s in resume.summary %}
+            <li>{{ s|e }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
+    

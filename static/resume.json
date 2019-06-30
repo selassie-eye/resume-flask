@@ -1,0 +1,190 @@
+{
+    "skills": [
+        {
+            "name": "Database Management",
+            "details": [
+                "Oracle",
+                "MySQL",
+                "Postgres",
+                "MongoDB"
+            ]
+        },
+        {
+            "name": "Scripting",
+            "details": [
+                "Python",
+                "Bash",
+                "Javascript",
+                "Dart",
+                "PHP"
+            ]
+        },
+        {
+            "name": "Data Science",
+            "details": [
+                "R",
+                "Python with Anaconda",
+                "Tensorflow"
+            ]
+        },
+        {
+            "name": "OS Environments",
+            "details": [
+                "Apple (macOS, iOS, tvOS, watchOS)",
+                "Android, Linux (Ubuntu, Arch)",
+                "Windows 10"
+            ]
+        },
+        {
+            "name": "Cloud Architecture",
+            "details": [
+                "AWS",
+                "Google Cloud",
+                "Oracle Cloud"
+            ]
+        },
+        {
+            "name": "Mobile Development",
+            "details": [
+                "iOS and Android SDKs",
+                "Flutter cross-platform SDK"
+            ]
+        },
+        {
+            "name": "Object-Oriented Programming",
+            "details": [
+                "C family", 
+                "Java",
+                "TypeScript",
+                "Swift",
+                "Dart",
+                "Go",
+                "Rust",
+                "Max for Ableton"
+            ]
+        },
+        {
+            "name": "Blockchain",
+            "details": [
+                "Solidity on Ethereum", 
+                "Blockchain, cryptocurrency and smart contract design with Python."
+            ]
+        },
+        {
+            "name": "Graphics and Video Game Design",
+            "details": [
+                "Unity",
+                "Unreal Engine 4",
+                "OpenGL",
+                "Oculus VR",
+                "ARKit for iOS"
+            ]
+        },
+        {
+            "name": "Full Stack Web Development",
+            "details": [
+                "ReactJS",
+                "VueJS",
+                "HTML/CSS/JS",
+                "Apache",
+                "NodeJS",
+                "Flask",
+                "Django",
+                "Ember",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Microprocessors/Digital Design",
+            "details": [
+                "ARM",
+                "x86",
+                "MIPS",
+                "VHDL"
+            ]
+        }
+    ],
+
+    "summary": [
+        "Bachelors degree  in Computer Engineering from the University of Florida.",
+        "2+ years of experience within the full-stack development cycle.",
+        "Self-motivated learner driven to seek and archive knowledge of significant and emerging technologies to support my skills and value as an engineer.",
+        "Excellent communicator who can express ideas and concepts to a diverse audience.",
+        "Team player concerned with complementing my partners strengths and weaknesses in order to support our success."
+    ],
+
+    "education": [
+        {
+            "name": "University of Florida",
+            "degree": "Bachelor of Science, Computer Engineering",
+            "location": "Gainesville, FL",
+            "start": "January 2014",
+            "end": "December 2018",
+            "details": [
+                "Concentration in Software.",
+                "Member of Student Financial Task Group (2018)."
+            ]
+        }
+    ],
+
+    "experience": [
+        {
+            "name": "Modernized Mobile",
+            "position": "Engineer",
+            "location": "Gainesville, FL",
+            "start": "January 2018",
+            "end": "December 2018",
+            "details": [
+                "Met with clients to discuss commercial and consumer software and marketing needs and discuss potential solutions.",
+                "Secured $10k-$100k development and marketing contracts with clients across diverse industries.",
+                "Developed and maintained parts of the full technological stack for clients interested in mobile apps through launch.",
+                "Provide strategy and direction for sales associates who will reach new clients.",
+                "Research and implement new technologies for existing and upcoming projects.",
+                "Maintain knowledge on current legislation and requirements concerning several professional fields, particularly medicine."
+            ]
+        },
+        {
+            "name": "UF Computing Help Desk",
+            "position": "Lead Technical Consultant",
+            "location": "Gainesville, FL",
+            "start": "September 2014",
+            "end": "May 2018",
+            "details": [
+                "Provided advanced technical support to over 100,000 university members.",
+                "Helped clients understand what is causing their issues and found solutions for them.",
+                "Met face-to-face with clients and provided a friendly and positive customer service experience.",
+                "Advised staff on complex technical issues.",
+                "Responsible for the management of secure PII for university members.",
+                "Helped clients handle security vulnerabilities within their online university presence.",
+                "Reached out to over 50 clients daily with new or ongoing issues to find solutions for them."
+            ]
+        },
+        {
+            "name": "Cade Museum Living Inventor Series",
+            "position": "Speaker",
+            "location": "Gainesville, FL",
+            "start": "September 2018",
+            "end": "",
+            "details": [
+                "Hosted a workshop for groups of 30+ students from ages 8-18 where I shared my experience and answered questions about my career in software development.",
+                "Developed iOS programs to support the museum experience.",
+                "MoMo SolAR: an AR experience that allows the user to explore the solar system",
+                "MoMo ARt: an AR application that allows users to paint 3D art around them through their phone",
+                "CadeMuseum: a companion app for the Cade Museum that provides audio tours, scavenger hunts and event schedules to users",
+                "Introduced students to the Scratch programming language to demonstrate the principles of software design and inspire interest in computer programming."
+            ]
+        },
+        {
+            "name": "VR for the Social Good Initiative",
+            "position": "VR Developer",
+            "location": "Gainesville, FL",
+            "start": "August 2017",
+            "end": "December 2017",
+            "details": [
+                "Created VR applications that benefited non-profit organizations and charitable causes  using Unity and graphical modeling software (Maya , Blender) for the Oculus Rift.",
+                "Mindscaping: A solo project created to support The Meditation Initiative by inspiring and encouraging mindfulness in its users. Website: https://ollivierrekhari.wixsite.com/mindscaping",
+                "Food Insecurity in Immigrant Populations: A team project created to support Dr. Montserrat Corbera’s efforts to raise awareness about the issues of food insecurity facing America’s vulnerable immigrant youth. Website: https://vrfoodinsecurity.wordpress.com/"
+            ]
+        }
+    ]
+}

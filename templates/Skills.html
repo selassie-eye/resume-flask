@@ -1,0 +1,20 @@
+{% extends "Resume.html" %}
+{% block content %}
+    <div class="skills">
+        <h1 class="text-center">Skills</h1>
+        {% for skill in resume.skills %}
+        <div class="row">
+            <div class="col-4 title">
+                <h3>{{ skill.name }}</h3>
+            </div>
+            <div class="col-8 details">
+                <ul>
+                    {% for detail in skill.details %}
+                    <li>{{ detail }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}

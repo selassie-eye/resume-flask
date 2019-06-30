@@ -1,0 +1,27 @@
+{% extends "Resume.html" %}
+{% block content %}
+    <div class="exp">
+        <h1 class="text-center">Experience</h1>
+        {% for exp in resume.experience %}
+        <div class="row">
+            <div class="col-3 title">
+                <h3 class="name">{{ exp.name }}</h3>
+                <p class="pos">{{ exp.position }}</p>
+                <p class="loc"> {{ exp.location }}</p>
+                {% if exp.end %}
+                <p class="date">{{ exp.start }} - {{ exp.end }}</p>
+                {% else %}
+                <p class="date">{{ exp.start }}</p>
+                {% endif %}
+            </div>
+            <div class="col-8 details">
+                <ul>
+                    {% for detail in exp.details %}
+                    <li>{{ detail }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='resume.css') }}">
+    </head>
+    <body>
+        <div id="content" class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2>Khari Ollivierre</h2>
+                </div>
+                <div class="col btn-group text-right">
+                        <a href="summary" class="btn btn-dark">Summary</a>
+                        <a href="skills" class="btn btn-dark">Skills</a>
+                        <a href="experience" class="btn btn-dark">Experience</a>
+                        <a href="education" class="btn btn-dark">Education</a>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="padding: 20px"></div>
+            {% block content %}
+                <h1 class="text-center">Khari Is A Really Cool Guy!</h1>
+            {% endblock %}
+        </div>
+    </body>
+</html>
